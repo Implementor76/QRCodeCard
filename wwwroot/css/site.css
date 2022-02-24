@@ -1,0 +1,52 @@
+﻿
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+  font-size: 14px;
+}
+
+body{
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px; /* Cambiarlo a  em*/
+}
+
+.page-content {
+  height: 100vh;
+  background-color: hsl(200,15%,55%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.barcode-card {
+  /* height: 500px; */
+  margin: auto auto;
+  padding: 17px;
+  width: 286px;
+  background-color: hsl(0,0%,100%);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.barcode-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.barcode-card h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color:hsl(218, 44%, 22%);
+  margin: 20px 10px 15px 10px;
+}
+
+.barcode-card p {
+  font-size: 16px;
+  /* font-weight: 400; */
+  color: hsl(220, 15%, 55%);
+  margin: 0px 10px 20px 0px;
+}
